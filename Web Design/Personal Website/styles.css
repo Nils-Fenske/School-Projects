@@ -1,0 +1,246 @@
+/* 	Nils Fenske
+	Personal Website
+	CSS
+*/
+
+body{
+	background-color: #f5f5f0;
+}
+
+.top {
+	width: 100%;
+}
+
+#left, #right{
+	width: 25%;
+	height: 150px;
+}
+
+#HWLogo, #CorvetteLogo{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+#middle{
+	width: 50%;
+	height: 100px;
+}
+
+#text{
+	color: #008ae6;
+	font-family: "Ebrima";
+	text-transform: uppercase;
+	font-size: 4em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menu{
+	width: 50%;
+	margin: 0 25%;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5f5f0;
+	margin: 0;
+	border-bottom: 1px solid grey;
+}
+
+.year, .color, .comment, .about {
+	float: left;
+    width: 25%;
+    text-align: center;	
+}
+
+#year, #color, #comment, #about {
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: "Ebrima";
+	font-weight: bold;
+}
+
+.year-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-top: 1px solid grey;
+    z-index: 1;
+	width: 50%;
+}
+
+.year:hover .year-content {
+    display: block;
+}
+
+/*.year:hover + .color-content {
+    display: none;
+}*/
+
+.range {
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5f5f0;
+	margin: 0;
+}
+
+.range li{
+    float: left;
+    width: 12.5%;
+    text-align: center;
+}
+
+.range a {
+	display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: "Ebrima";
+	font-weight: bold;
+}
+
+.range li:hover {
+	background-color: #ffe000;
+}
+
+.color-content {
+    display: none;
+    position: absolute;
+	background-color: #f5f5f0;
+	min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-top: 1px solid grey;
+    z-index: 2;
+	width: 50%;
+	left: 25%;
+}
+
+.color:hover .color-content {
+    display: block;
+}
+
+/*.color:hover .year-content {
+    display: none;
+}*/
+
+.rainbow {
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	background-color: #f5f5f0;
+	margin: 0;
+}
+
+.rainbow li{
+    float: left;
+    width: 12.5%;
+}
+
+.rainbow a {
+	display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: "Ebrima";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.rainbow #red {background-color: red; color: red;}
+.rainbow #orange {background-color: orange; color: orange;}
+.rainbow #yellow {background-color: yellow; color: yellow;}
+.rainbow #green {background-color: green; color: green;}
+.rainbow #blue {background-color: blue; color: blue;}
+.rainbow #purple {background-color: purple; color: purple;}
+.rainbow #white {background-color: white; color: white;}
+.rainbow #black {background-color: black; color: black;}
+
+.rainbow li:hover a{
+	color: grey;
+}
+
+.pic-container {
+	width: 80%;
+	margin: 5% 10%;
+	display: block;
+}
+
+#pictures {
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5f5f0;
+	margin: 0;
+}
+
+#pictures li {
+	float: left;
+	width: 20%;
+	height: 400px;
+	margin: 2.5%;
+}
+
+#pictures img {
+	width: 100%;
+}
+
+#details{
+	text-align: center;
+}
+
+.comment-container {
+	width: 50%;
+	margin: 5% 25%;
+	display: none;
+	text-align: center;
+}
+
+input {
+	padding: 10px;
+	font-size: inherit;
+	font-family: "Ebrima";
+	font-weight: normal;
+}
+
+#comment-text {
+	padding: 10px;
+	font-size: inherit;
+	font-weight: normal;
+	outline: none;
+	resize: none;
+}
+
+.about-container {
+	width: 50%;
+	margin: 5% 25%;
+	display: none;
+}
+
+#about-header, #mission-header {
+	color: #ff1700;
+	font-family: "Ebrima";
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+}
+
+#about-text, #mission-text {
+	display: inline-block;
+    color: black;
+    padding: 0;
+    text-decoration: none;
+	font-family: "Ebrima";
+	font-weight: bold;
+	margin: 16px 0 75px;
+	
+}
+

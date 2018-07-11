@@ -1,0 +1,103 @@
+<!-- Nils Fenske
+	 Perssonal Webstite
+	 HTML
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Corvettes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="overflow-y: auto">
+  <table class="top">
+    <tr>
+      <th id="left"><img id="HWLogo" src="Pictures\HWLogo.png"></th>
+      <th id="middle"><a id="text" href="javascript:switchView('home')">Corvette HotWheels</a></th>
+      <th id="right"><img id="CorvetteLogo" src="Pictures\CorvetteLogo.png"></th>
+    </tr>
+  </table>
+
+<div class="menu">
+  <ul class="options">
+    <li class="year">
+      <a id="year" href="javascript:switchView('year')">Year</a>
+        <div id="year-content" class="year-content">
+          <ul class="range">
+            <li><a href="javascript:switchView('home')">All</a></li>
+            <li><a>1950's</a></li>
+            <li><a>1960's</a></li>
+            <li><a>1970's</a></li>
+            <li><a>1980's</a></li>
+            <li><a>1990's</a></li>
+            <li><a>2000's</a></li>
+            <li><a>2010's</a></li>
+          </ul>
+        </div>
+    </li>
+    <li class="color">
+      <a id="color" href="javascript:switchView('color')">Color</a>
+        <div id="color-content" class="color-content">
+          <ul class="rainbow">
+            <li id="red"><a>red</a></li>
+            <li id="orange"><a>orange</a></li>
+            <li id="yellow"><a>yellow</a></li>
+            <li id="green"><a>green</a></li>
+            <li id="blue"><a>blue</a></li>
+            <li id="purple"><a>purple</a></li>
+            <li id="white"><a>white</a></li>
+            <li id="black"><a>black</a></li>
+          </ul>
+        </div>
+    </li>
+    <li class="comment"><a id="comment" href="javascript:switchView('comment')">Comment</a></li>
+    <li class="about"><a id="about" href="javascript:switchView('about')" >About</a></li>
+  </ul>
+</div>
+
+<div id="pic-container" class="pic-container">
+  <ul id="pictures"> 
+    
+  </ul>
+</div>
+
+<div id="comment-container" class="comment-container">
+  <form >
+    <br>
+    <input type="text" id="name" name="name" placeholder="Name">
+    <br><br>
+    <input type="text" id="email" name="email" placeholder="Email">
+    <br><br>
+    <textarea type="text" id="comment-text" name="comment" placeholder="Comment" cols="100" rows="10"></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<div id="about-container" class="about-container">
+  <h1 id="about-header">About</h1>
+  <p id="about-text">My target audience is anyone who likes corvettes, hotwheels, or collecting items in general. I hope to inspire them to collect or show off an existing collection of theres as I have done. I am hoping kids of about 5 years and older and adults of all ages will find my collection interesting.</p>
+  <h1 id="mission-header">Mission</h1>
+  <p id="mission-text">The mission of this website is to show off my collection of miniature corvette hotwheels. I have been collecting them since I was very young when I received my first one from my father. I continue to search the toy section at almost any store I visit in search of another model I don't yet have. On this website people will get to view my corvettes by year, color, or all at once. Visistors may also read about my collection and leave comments. </p>
+</div>
+
+</body>
+<script src="corvettes.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js";></script>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
+<?php
+echo "Hello World!";
+?> 
+
+</body>
+</html>-->

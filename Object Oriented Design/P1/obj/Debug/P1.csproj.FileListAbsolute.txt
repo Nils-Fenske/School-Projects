@@ -1,0 +1,6 @@
+C:\Users\nfens_000\Documents\School\Winter 2016\P1\bin\Debug\P1.exe.config
+C:\Users\nfens_000\Documents\School\Winter 2016\P1\obj\Debug\P1.csprojResolveAssemblyReference.cache
+C:\Users\nfens_000\Documents\School\Winter 2016\P1\bin\Debug\P1.exe
+C:\Users\nfens_000\Documents\School\Winter 2016\P1\bin\Debug\P1.pdb
+C:\Users\nfens_000\Documents\School\Winter 2016\P1\obj\Debug\P1.exe
+C:\Users\nfens_000\Documents\School\Winter 2016\P1\obj\Debug\P1.pdb

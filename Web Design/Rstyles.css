@@ -1,0 +1,31 @@
+/* 	Nils Fenske
+	Ryley Website
+	CSS
+*/
+
+body{
+	background-color: pink;
+}
+h1{
+	color: yellow;
+	text-shadow: 3px 2px black;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2{
+	text-decoration: underline;
+	text-align: center;
+}
+
+h3{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
